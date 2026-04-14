@@ -1,7 +1,0 @@
-Warehouse 0: (55.0, 84.0)
-  DangerousCargo: 2
-  Truck 0: 100.0
-Warehouse 1: (50.0, 90.0)
-  Truck 1: 64674.2
-    BasicCargo: 1
-    HeavyCargo: 0

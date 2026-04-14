@@ -1,0 +1,5 @@
+Normal contact: aaa 010-0000-0000 friend
+Normal contact: bbb 010-0000-0000 family
+Club contact: ccc 010-0000-0000 Hike&Bike
+Club contact: ddd 010-0000-0000 Abraca-data
+Department contact: eee 010-0000-0000 computer-science

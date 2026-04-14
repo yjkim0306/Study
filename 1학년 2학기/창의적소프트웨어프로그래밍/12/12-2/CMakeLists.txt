@@ -1,0 +1,1 @@
+add_executable(print_info 12-2.cpp)
