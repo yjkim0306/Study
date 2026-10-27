@@ -100,10 +100,12 @@ module CTRL(
 			end
 			`OP_BEQ: begin
 				Branch = 1;
+				SignExtend = 1;
 				ALUOp = `ALU_EQ;
 			end
 			`OP_BNE: begin
 				Branch = 1;
+				SignExtend = 1;
 				ALUOp = `ALU_NEQ;
 			end
 			`OP_J: begin

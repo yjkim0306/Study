@@ -50,8 +50,8 @@ module CPU(
 	wire [31:0]		mem_read_data;
 
 	// ALU-related wires
-	wire [31:0]		operand1 = rd_data1;
-	wire [31:0]		operand2 = ALUSrc ? ext_imm : rd_data2;
+	wire [31:0]		operand1;
+	wire [31:0]		operand2;
 	wire [31:0]		alu_result;
 
 	// Define PC
@@ -74,7 +74,7 @@ module CPU(
 	assign operand1 = rd_data1;
 	assign operand2 = ALUSrc ? ext_imm : rd_data2;
 
-	wire  branch_taken = Branch & (alu_result == 0);
+	wire branch_taken = Branch & alu_result[0];
 
 	assign halt	= (inst == 32'b0);
 
